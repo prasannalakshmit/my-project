@@ -5,7 +5,7 @@ import java.io.*;
 
 public class ReadEmailToAndCC {
 	
-	public static void main(String[] args)throws Exception { 
+	public static void main(String[] args) throws Exception { 
 		try {
 			ReadEmailToAndCC readProperties = new ReadEmailToAndCC();
 			Properties properties = new Properties();
