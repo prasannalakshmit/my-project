@@ -14,8 +14,8 @@ public class ReadEmailToAndCC {
 		    properties.loadFromXML(reader);
 		    String to = readProperties.getEmailTo(properties);
 		    String cc = readProperties.getEmailCC(properties);
-		    System.out.println("Send email TO :" +to);
-		    System.out.println("Send email CC :" +cc);
+		    System.out.println("Sending email TO :" +to);
+		    System.out.println("Sending email CC :" +cc);
 		    reader.close();
 		
 		}catch (FileNotFoundException e) {
